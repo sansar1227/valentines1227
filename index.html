@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Valentine 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- COUNTDOWN SECTION -->
+  <section id="countdown-section">
+    <h1>Valentine’s Day & Our 7 Months 💘</h1>
+    <p id="countdown">Loading...</p>
+  </section>
+
+  <!-- CELEBRATION SECTION -->
+  <section id="celebration" class="hidden">
+    <h1>It’s Valentine’s Day 💖</h1>
+    <button id="unlock-btn" class="hidden">Unlock 💌</button>
+  </section>
+
+  
+
+  <!-- MAIN WEBSITE (LOCKED CONTENT) -->
+<section id="main-site" class="hidden">
+
+  <h1>Welcome, my love ❤️</h1>
+  <p>Let’s listen together 🎶</p>
+
+  <!-- MUSIC PLAYER -->
+  <div class="music-player">
+
+    <img id="cover" src="assets/covers/cover1.jpg" alt="Song Cover">
+
+    <h2 id="song-title">Willow</h2>
+
+
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭</button>
+    </div>
+
+    <audio id="audio"></audio>
+
+  </div>
+
+</section>
+
+<!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
